@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="js">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import { useUsers } from './modules/useUsers'

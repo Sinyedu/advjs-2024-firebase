@@ -1,6 +1,6 @@
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { auth } from "./firebase";
-import { router } from "../router/index";
+import router from '/src/router/index.ts'
 
 import { ref } from 'vue'
 
